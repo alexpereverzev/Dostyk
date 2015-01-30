@@ -1,0 +1,195 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="flacon.ibecon.ru.flacon.fragment.MapFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <WebView
+
+        android:id="@+id/web_map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:id="@+id/clear_button"
+        android:visibility="gone"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:text="Сбросить маршрут"
+        android:textColor="#0491B2"
+        android:textSize="14sp"
+        android:padding="3dp"
+        android:alpha="0.8"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/clear"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:text="Сбросить маршрут"
+        android:alpha="1.0"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_dots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <LinearLayout
+        android:alpha="0.9"
+        android:background="#08A3BC"
+        android:id="@+id/parent_menu"
+        android:visibility="gone"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+       <LinearLayout
+           android:layout_margin="2dp"
+            android:background="#0491B2"
+           android:alpha="0.9"
+           android:layout_width="match_parent"
+           android:orientation="horizontal"
+           android:layout_height="wrap_content">
+
+           <ImageView
+               android:padding="10dp"
+               android:layout_gravity="center"
+               android:layout_width="wrap_content"
+               android:src="@drawable/ic_da_mini_icon2x"
+               android:layout_height="wrap_content" />
+
+           <TextView
+
+               android:id="@+id/address_from"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:hint="Отсюда"
+               android:textSize="16sp"
+               android:layout_gravity="center"
+               android:textColorHint="@color/white"
+               android:textColor="@color/white"
+               android:layout_weight="1"
+               android:layout_margin="5dp"
+               />
+
+           <View
+               android:visibility="gone"
+               android:layout_width="2dp"
+               android:layout_height="match_parent"
+               android:background="#008399"/>
+           <View
+               android:layout_width="2dp"
+               android:visibility="gone"
+               android:layout_height="match_parent"
+               android:background="#0CA4C4"/>
+
+           <ImageView
+               android:padding="10dp"
+               android:layout_gravity="center"
+               android:id="@+id/current_position"
+               android:layout_width="wrap_content"
+               android:src="@drawable/ic_position"
+               android:layout_height="wrap_content" />
+
+       </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="#0491B2"
+            android:alpha="0.9"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:src="@drawable/ic_b"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/address_here"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Сюда"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                />
+
+            <View
+                android:visibility="gone"
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#008399"/>
+            <View
+                android:visibility="gone"
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#0CA4C4"/>
+
+            <ImageView
+                android:visibility="gone"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:id="@+id/clear_here"
+                android:layout_width="wrap_content"
+                android:src="@drawable/ic_close_route"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/reset_route"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:text="Сбросить"
+                android:alpha="0.9"
+                android:layout_margin="2dp"
+                android:background="#0FC3D1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/minimize"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:alpha="0.9"
+                android:gravity="center"
+                android:background="#0FC3D1"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:text="Скрыть"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+
+</RelativeLayout>

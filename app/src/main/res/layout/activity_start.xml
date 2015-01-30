@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ekran"
+    tools:context="ru.ibecom.appengine.activity.StartActivity">
+
+
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_logo"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_marginTop="-20dp"
+            android:layout_width="wrap_content"
+            android:textColor="#e0feff"
+            android:text="Пилотное приложение"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+
+            />
+
+        </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/counter"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/content"
+            android:layout_marginBottom="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/timer"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textColor="@color/white"
+                android:text="100 %"
+
+                android:layout_height="wrap_content" />
+
+            <ProgressBar
+                android:id="@+id/progressBar2"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminateDrawable="@drawable/event_progress_bar"
+                android:progressDrawable="@drawable/event_progress_bar"
+                />
+
+
+        </RelativeLayout>
+
+
+
+            <TextView
+                android:layout_margin="20dp"
+                android:layout_below="@+id/content"
+                android:text="Загрузка"
+                android:layout_centerHorizontal="true"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pressed"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:id="@+id/back_button"
+        android:background="@drawable/pressed"
+        android:visibility="invisible">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/back"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:endColor="#0491B2"/>
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:startColor="#08A3BC"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:id="@+id/title"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/menu_button"
+        android:focusable="true"
+
+        android:background="@drawable/pressed"
+        android:gravity="center_vertical">
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:startColor="#08A3BC"/>
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:endColor="#0491B2"/>
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/menu"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

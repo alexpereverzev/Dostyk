@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dostyk</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app">1540223629543945</string>
+    <string name="vk_app_id">4581690</string>
+    <string name="vk_app_key">DEaWthAuLRRXCdb5BP1z</string>
+    <string name="dialog_text">Для доступа к полному функционалу приложения необходимо включить Bluetooth</string>
+    <string name="title_activity_about">AboutActivity</string>
+
+</resources>

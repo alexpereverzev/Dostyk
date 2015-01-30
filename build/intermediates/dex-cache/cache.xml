@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.1.71\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da">
+        <dex dex="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\pre-dexed\debug\classes-cf4c9750dea6d5e59e533810e92be0c19d94e112.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-1822074cb8f561a9499096e93263540500276b6d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.1.71\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da">
+        <dex dex="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\pre-dexed\debug\classes-cf4c9750dea6d5e59e533810e92be0c19d94e112.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\exploded-aar\Dostuk\app3\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="1273f167fb7298a6b5a590222d7b55f2cddc26e4">
+        <dex dex="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\pre-dexed\debug\classes-9ae5d7cba9ad0ebba07eedd438bda10a12dc094a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\exploded-aar\com.vk\androidsdk\1.3.2\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="a90f5f1ea5018f5d4cd02cef4438fce4ca9317da">
+        <dex dex="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\pre-dexed\debug\classes-ebb39ba2fce570a220bfaeb0cd62c936c1d18544.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\dostyk\app\libs\retrofit-1.7.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cc6807da6fdf91bea1b6a4a90c3818dac27d335f">
+        <dex dex="C:\Users\Alexander\Documents\dostyk\app\build\intermediates\pre-dexed\debug\retrofit-1.7.0-8f02383446a6efde8bed8134204ba498228357cb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\exploded-aar\com.github.asne.facebook\facebook\3.17.2\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="0027a7b1c1f861403303ac4b10ac53fb6067324b">
+        <dex dex="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\pre-dexed\debug\classes-c03b32534bb2ce8ca89975bd202fc81d58433d9f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp-urlconnection\1.6.0\375c2206eb7e52976955d0f8737be5e0ec9cf667\okhttp-urlconnection-1.6.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="375c2206eb7e52976955d0f8737be5e0ec9cf667">
+        <dex dex="C:\Users\Alexander\Documents\dostyk\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-1.6.0-e0ddc65fda6f6a8c5d6eae37edf79f940c51a4bb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\event\Dostuk\app\libs\commons-io-1.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="0ad6ae511ca4608a18317fcb19850fd113bb2ae8">
+        <dex dex="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\pre-dexed\debug\commons-io-1.2-c9c426e8cb125f82c86833a7a78e8316428d4af8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="95fd37732ec852e99f07eeb516a3650172f1d136">
+        <dex dex="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\pre-dexed\debug\classes-6f081cee08ec1e6a2bad79ce8ee804fb4cc8e68d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\event\Dostuk\app\libs\commons-cli-1.1.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="11c98b99ad538f2f67633afd4d7f4d98ecfbb408">
+        <dex dex="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\pre-dexed\debug\commons-cli-1.1-d9a4c4a82d195f81a2ba2bfd293d15048c24349b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\event\Dostuk\app\libs\commons-cli-1.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="11c98b99ad538f2f67633afd4d7f4d98ecfbb408">
+        <dex dex="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\pre-dexed\debug\commons-cli-1.1-d9a4c4a82d195f81a2ba2bfd293d15048c24349b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\event\Dostuk\app\libs\commons-io-1.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="0ad6ae511ca4608a18317fcb19850fd113bb2ae8">
+        <dex dex="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\pre-dexed\debug\commons-io-1.2-c9c426e8cb125f82c86833a7a78e8316428d4af8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.2\91c20388c9a45f62b5ed8fe0502bb76ff6251fc7\bolts-android-1.1.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="91c20388c9a45f62b5ed8fe0502bb76ff6251fc7">
+        <dex dex="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.2-9c5ebd9a21f941398856ea216dd15e148203bab9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\pre-dexed\debug\classes-42aebb9a4a8be519a615402472d08548ab7857da.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\event\Dostuk\app\libs\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\pre-dexed\debug\gson-2.2.4-60d4a6376abd16794d5311ca06aa9b818142604a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\exploded-aar\Dostuk\app3\unspecified\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="c27a3c4e7c51c0b727bcb3ed845b0d85f56fb8f7">
+        <dex dex="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\pre-dexed\debug\classes-9ae5d7cba9ad0ebba07eedd438bda10a12dc094a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\dostyk\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="C:\Users\Alexander\Documents\dostyk\app\build\intermediates\pre-dexed\debug\classes-1755dff6fc821a88b84d40aae18843a285c48648.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\dostyk\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="C:\Users\Alexander\Documents\dostyk\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-291fa4c969d43c03502364418db8b4c4727855a7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\dostyk\app\libs\commons-cli-1.1.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="11c98b99ad538f2f67633afd4d7f4d98ecfbb408">
+        <dex dex="C:\Users\Alexander\Documents\dostyk\app\build\intermediates\pre-dexed\debug\commons-cli-1.1-8be6fa22d8583e0831903aa5a11c07ab16bedbe2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\event\Dostuk\app\libs\universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3-81ac58c3bba980fef0c85f7b1c0d1e4b85a619fc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\pre-dexed\debug\classes-42aebb9a4a8be519a615402472d08548ab7857da.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\event\Dostuk\app\libs\retrofit-1.7.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cc6807da6fdf91bea1b6a4a90c3818dac27d335f">
+        <dex dex="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\pre-dexed\debug\retrofit-1.7.0-ce0c38dc57e03c8fd9a2ea2c4d910f4673839073.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\event\Dostuk\app\libs\rabbitmq-client.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="aaddbda73a81b0c147cf441219ade905dbb6aa81">
+        <dex dex="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\pre-dexed\debug\rabbitmq-client-4e51252fabdacd4cc743cc0efbc4de7973931fa5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\event\Dostuk\app\libs\rabbitmq-client.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="aaddbda73a81b0c147cf441219ade905dbb6aa81">
+        <dex dex="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\pre-dexed\debug\rabbitmq-client-4e51252fabdacd4cc743cc0efbc4de7973931fa5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\1.6.0\e32c6b4bee8b61f0de12b337c48df0f5df8caccc\okhttp-1.6.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="e32c6b4bee8b61f0de12b337c48df0f5df8caccc">
+        <dex dex="C:\Users\Alexander\Documents\dostyk\app\build\intermediates\pre-dexed\debug\okhttp-1.6.0-dc75287039b1e15f2be4af14fb62124a946f941d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.2\91c20388c9a45f62b5ed8fe0502bb76ff6251fc7\bolts-android-1.1.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="91c20388c9a45f62b5ed8fe0502bb76ff6251fc7">
+        <dex dex="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.2-9c5ebd9a21f941398856ea216dd15e148203bab9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\event\Dostuk\app\libs\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\pre-dexed\debug\gson-2.2.4-60d4a6376abd16794d5311ca06aa9b818142604a.jar" />
+    </item>
+    <item
+        jar="C:\Program Files (x86)\Android\android-studio\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-12c1a64ad23e0be888f0dfa6119e65a210bf4620.jar" />
+    </item>
+    <item
+        jar="C:\Program Files (x86)\Android\android-studio\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-12c1a64ad23e0be888f0dfa6119e65a210bf4620.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\dostyk\app\libs\IBApi.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="ca511fe078c0e4e4f4156f862c22816df004b4a7">
+        <dex dex="C:\Users\Alexander\Documents\dostyk\app\build\intermediates\pre-dexed\debug\IBApi-24b7d6b25f969673902065ba0e64cfb591152a55.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\exploded-aar\com.vk\androidsdk\1.3.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a90f5f1ea5018f5d4cd02cef4438fce4ca9317da">
+        <dex dex="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\pre-dexed\debug\classes-ebb39ba2fce570a220bfaeb0cd62c936c1d18544.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\dostyk\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="95fd37732ec852e99f07eeb516a3650172f1d136">
+        <dex dex="C:\Users\Alexander\Documents\dostyk\app\build\intermediates\pre-dexed\debug\classes-b26ea7d6ee432b9479941201633cff2a3805cfea.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="95fd37732ec852e99f07eeb516a3650172f1d136">
+        <dex dex="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\pre-dexed\debug\classes-6f081cee08ec1e6a2bad79ce8ee804fb4cc8e68d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\dostyk\app\build\intermediates\exploded-aar\com.github.asne.facebook\facebook\3.17.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="0027a7b1c1f861403303ac4b10ac53fb6067324b">
+        <dex dex="C:\Users\Alexander\Documents\dostyk\app\build\intermediates\pre-dexed\debug\classes-e7fd113401d68881e4c690ee071971a3c3264718.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\event\Dostuk\app\libs\IBApi.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="762f9826f799b97a77943f08a2f1837577d59167">
+        <dex dex="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\pre-dexed\debug\IBApi-49e0ef7bfe61c6f72075c8925272cddfbbb81afd.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\dostyk\app\libs\commons-io-1.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="0ad6ae511ca4608a18317fcb19850fd113bb2ae8">
+        <dex dex="C:\Users\Alexander\Documents\dostyk\app\build\intermediates\pre-dexed\debug\commons-io-1.2-60f79aa427e65434db1a4edb9630bac9775a1e7d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\event\Dostuk\app\libs\IBApi.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="1df52930115fe76a2914cc959cd6ad735cadb535">
+        <dex dex="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\pre-dexed\debug\IBApi-49e0ef7bfe61c6f72075c8925272cddfbbb81afd.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\dostyk\app\build\intermediates\exploded-aar\dostyk\app3\unspecified\libs\universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="C:\Users\Alexander\Documents\dostyk\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3-b877654f7f93e8f0e4dca9f5c8bb15ce8cdce197.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\event\Dostuk\app\libs\universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3-81ac58c3bba980fef0c85f7b1c0d1e4b85a619fc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\event\Dostuk\app\libs\retrofit-1.7.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="cc6807da6fdf91bea1b6a4a90c3818dac27d335f">
+        <dex dex="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\pre-dexed\debug\retrofit-1.7.0-ce0c38dc57e03c8fd9a2ea2c4d910f4673839073.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\dostyk\app\build\intermediates\exploded-aar\com.vk\androidsdk\1.3.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a90f5f1ea5018f5d4cd02cef4438fce4ca9317da">
+        <dex dex="C:\Users\Alexander\Documents\dostyk\app\build\intermediates\pre-dexed\debug\classes-c5845a1c3d9a41eb0c2d95b52d92a2a8efb5ef3e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\dostyk\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.1.71\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da">
+        <dex dex="C:\Users\Alexander\Documents\dostyk\app\build\intermediates\pre-dexed\debug\classes-45baa524047dd4c9f5b2f3a0dea94646e656225c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\dostyk\app\build\intermediates\exploded-aar\dostyk\app3\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="13eb82fc38a004b8f7abbfd4600e68ec73b040d5">
+        <dex dex="C:\Users\Alexander\Documents\dostyk\app\build\intermediates\pre-dexed\debug\classes-c62559895ad8b7a0a1d6f8e0a9a5c0a1da4ad772.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-1822074cb8f561a9499096e93263540500276b6d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\dostyk\app\libs\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="C:\Users\Alexander\Documents\dostyk\app\build\intermediates\pre-dexed\debug\gson-2.2.4-21bc628b449b05910c52269ce6ac7d393c86283b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\dostyk\app\libs\rabbitmq-client.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="aaddbda73a81b0c147cf441219ade905dbb6aa81">
+        <dex dex="C:\Users\Alexander\Documents\dostyk\app\build\intermediates\pre-dexed\debug\rabbitmq-client-631c37fcdabd78fd509a15ecc68739534b87d17c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\exploded-aar\com.github.asne.facebook\facebook\3.17.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="0027a7b1c1f861403303ac4b10ac53fb6067324b">
+        <dex dex="C:\Users\Alexander\Documents\event\Dostuk\app\build\intermediates\pre-dexed\debug\classes-c03b32534bb2ce8ca89975bd202fc81d58433d9f.jar" />
+    </item>
+
+</items>

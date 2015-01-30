@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>IbGeo Map Example</title>
+
+<link rel="stylesheet" href="leaflet.css"/>
+<link rel="stylesheet" href="custom.css"/>
+<link rel="stylesheet" href="MarkerCluster.css"/>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<meta charset="utf-8">
+
+<script src="jquery.min.js"></script>
+<script src="heap.js"></script>
+<script src="leaflet-src.js"></script>
+<script src="leaflet-indoor.js"></script>
+<script src="leaflet.markercluster.js"></script>
+<script src="ibgeomap.js"></script>
+<script type="text/JavaScript">
+    /*---------------------------------------End of external hooks---------------------------------------------------------*/
+    /* This part of code must be implemented on native application side*/
+
+    $.get('./dostyk_mapcanvas_1_level.json', function (Mapdata1) {
+        $.get('./dostyk_mapcanvas_2_level.json', function (Mapdata2) {
+            $.get('./dostyk_poi_1_level.json', function (POI1) {
+                $.get('./dostyk_poi_2_level.json', function (POI2) {
+                    $.get('./dostyk_routegraph.json', function (routeGraph) {
+                        $.get('./dostyk_routes.json', function (routesGeoJSON) {
+                            loadMapCanvas(Mapdata1, POI1);
+                            addMapCanvas(Mapdata2);
+                            loadMapPOI(POI2);
+
+                            higlightRoutes(routesGeoJSON);
+                            loadRoutes(routeGraph);
+                            var poiIDS = ["50",
+                                52,
+                                53,
+                                54,
+                                55,
+                                56,
+                                57,
+                                58,
+                                59,
+                                60,
+                                61,
+                                62,
+                                63,
+                                64,
+                                65,
+                                66,
+                                70,
+                                72,
+                                16,
+                                18,
+                                22,
+                                24,
+                                25,
+                                26,
+                                27,
+                                28,
+                                30,
+                                32,
+                                33,
+                                34,
+                                37,
+                                38,
+                                39,
+                                40,
+                                41];
+                            var idx = 0;
+                            onTerminalPositionChange(129.88323165645184, 110.4031406560539, 1);
+                            findRouteFromCurrentPosition({l: 0, x: 96.62365378217409, y: 109.04205140366615});
+
+                            /*onTerminalPositionChange(119.88323165645184, 110.4031406560539, 0);
+                            findRouteFromCurrentPosition({l: 0, x: 96.62365378217409, y: 109.04205140366615});
+                            findRoute({l: 1, x: 96.62365378217409, y: 109.04205140366615}, {l: 1, x: 120.62365378217409, y: 109.04205140366615});*/
+                            //findRoute({x:96.62365378217409, y:109.04205140366615, l:0},{l: 0, x: 129.88323165645184, y: 110.4031406560539},'{"color":"red","dashArray": "15,15"}');
+                            /*setRouteEnd({x:150,y:90,l:0});
+                            setRouteStart({x:170,y:90,l:0,feature:{fff:1}});*/
+                            setInterval(function () {
+                                higlightPOI(poiIDS[idx], '{"fillColor":"#FF4F4F","fillOpacity": 0.2, "opacity": 0.7}', "true");
+
+                                //onTerminalPositionChange(poiIDS[idx],poiIDS[idx+1],0);
+                                findRouteFromCurrentPosition({l: 0, x: poiIDS[idx]+50, y: poiIDS[idx+1]+50});
+
+                        if (idx === poiIDS.length - 4) {
+                            idx = 0;
+                        } else {
+                            idx++;
+                        }
+                               // setRouteStart({x:poiIDS[idx],y:poiIDS [idx+1],l:0});
+                    }, 1000);
+
+                });
+            });
+            });
+        });
+    });
+    });
+    /*--------------------------------------End---------------------------------------------------------------------------*/
+</script>
+
+</head>
+<body>
+<!--
+<body>
+   <div id="controls">
+    <p>Location Provider Emulator
+        <br>function onTerminalPositionChange(X, Y, L)</p>
+    <p> <a>X:<input type="text" size="10" value="0" id="xPos">
+        <a>Y:<input type="text" size="10" value="0" id="yPos">
+        <a>L:<input type="text" size="1" value="0" id="lPos">
+        <input type="button" value="Move!" onclick="onTerminalPositionChange(document.getElementById('xPos').value, document.getElementById('yPos').value, document.getElementById('lPos').value)">
+    </p>
+</div>
+-->
+<div id="map"></div>
+</body>
+
+</html>
